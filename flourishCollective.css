@@ -4,10 +4,6 @@
     box-sizing: border-box;
 }
 
-img {
-    height: 2rem;
-}
-
 
 /* html {
     font-size: 63.5%;
@@ -36,4 +32,49 @@ nav ul {
     background-position: center;
     color: white;
     display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.hero h2 {
+    text-align: center;
+}
+
+.hero button {
+    padding: 1rem 2rem;
+    background: rgb(66, 166, 199);
+    border: none;
+}
+
+.intro {
+    display: flex;
+    flex-wrap: wrap;
+    height: 50vh;
+}
+
+.intro img {
+    width: 100%;
+}
+
+.intro-image {
+    flex: 1 1 30rem;
+    background: lightblue;
+}
+
+.intro-text {
+    flex: 1 1 30rem;
+    background: lightgray;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.intro-text h2 {
+    padding: 2rem;
+}
+
+.intro-text p {
+    padding: 1rem;
 }
