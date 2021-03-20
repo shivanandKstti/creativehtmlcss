@@ -1,0 +1,91 @@
+/* /* h1 {
+    color: rebeccapurple;
+}
+
+.paragraph {
+    color: rgb(204, 83, 83);
+}
+
+#link {
+    color: black;
+    text-decoration: none;
+} */
+
+
+/* * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+} */
+
+
+/* div {
+    background-color: rgb(68, 66, 180);
+    color: white;
+    width: 100%;
+    padding: 20px;
+    margin-top: 20px;
+} */
+
+
+/* .text-section { */
+
+
+/* font-size: 20px; */
+
+
+/* font-size: 1.5em; */
+
+
+/* 16 * 1.4 = 24px */
+
+
+/* } */
+
+
+/* .text-section div { */
+
+
+/* font-size: 30px; */
+
+
+/* font-size: 1.5em; */
+
+
+/* 16 * 1.5 * 1.5 = 36px */
+
+
+/* margin-top: 2em; */
+
+
+/* }  */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    background: rgb(219, 115, 115);
+}
+
+h1 {
+    font-size: 4.8rem;
+}
+
+@media (max-width: 500px) {
+    body {
+        background: rgb(37, 104, 192);
+    }
+    .mobile {
+        font-size: 2.4rem;
+    }
+    .tablet {
+        font-size: 2.6rem;
+    }
+}
