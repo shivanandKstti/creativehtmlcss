@@ -1,0 +1,46 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+.container {
+    border: 3px solid black;
+}
+
+.box {
+    height: 10rem;
+    width: 10rem;
+}
+
+.box1 {
+    background: rgb(187, 31, 31);
+}
+
+.box2 {
+    background: rgb(16, 218, 107);
+}
+
+.box3 {
+    background: rgb(223, 211, 43);
+}
+
+.box4 {
+    background: rgb(45, 18, 121);
+}
+
+.box5 {
+    background: rgb(19, 1, 1);
+}
+
+.box6 {
+    background: rgb(226, 22, 209);
+}
+
+.box1 {
+    background: rgb(187, 31, 31);
+}
